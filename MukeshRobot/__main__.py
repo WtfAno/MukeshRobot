@@ -98,7 +98,7 @@ buttons = [
         InlineKeyboardButton(text="🔸𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩🔸", url=f"https://t.me/{SUPPORT_CHAT}"),
     ],
     [
-        InlineKeyboardButton(text="𓆩𝙇𝙀𝙂𝙀𝙉𝘿 ♡ 𝘼𝙉𝘼𝙉𝘿𓆪", url=f"tg://user?id={OWNER_ID}"),
+        InlineKeyboardButton(text="𓆩𝐑𝚶𝐘꯭𝚫𝐋₱Ɽł₦₵E𓆪", url=f"tg://user?id={5288547197}"),
         InlineKeyboardButton(text="🔹𝐌𝐮𝐬𝐢𝐜🔹", callback_data="Music_"),
     ],
 ]
@@ -109,7 +109,7 @@ HELP_STRINGS = f"""
 DONATE_STRING = """ʜᴇʏ ʙᴀʙʏ,
   ʜᴀᴩᴩʏ ᴛᴏ ʜᴇᴀʀ ᴛʜᴀᴛ ʏᴏᴜ ᴡᴀɴɴᴀ ᴅᴏɴᴀᴛᴇ.
 
-ʏᴏᴜ ᴄᴀɴ ᴅɪʀᴇᴄᴛʟʏ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ [𓆩𝙇𝙀𝙂𝙀𝙉𝘿 ♡ 𝘼𝙉𝘼𝙉𝘿𓆪](f"tg://user?id={OWNER_ID}") ғᴏʀ ᴅᴏɴᴀᴛɪɴɢ ᴏʀ ʏᴏᴜ ᴄᴀɴ ᴠɪsɪᴛ ᴍʏ [🔸𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩🔸](f"https://t.me/{SUPPORT_CHAT}") ᴀɴᴅ ᴀsᴋ ᴛʜᴇʀᴇ ᴀʙᴏᴜᴛ ᴅᴏɴᴀᴛɪᴏɴ."""
+ʏᴏᴜ ᴄᴀɴ ᴅɪʀᴇᴄᴛʟʏ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ [𓆩𝐑𝚶𝐘꯭𝚫𝐋₱Ɽł₦₵E𓆪](f"tg://user?id={OWNER_ID}") ғᴏʀ ᴅᴏɴᴀᴛɪɴɢ ᴏʀ ʏᴏᴜ ᴄᴀɴ ᴠɪsɪᴛ ᴍʏ [🔸𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩🔸](f"https://t.me/{SUPPORT_CHAT}") ᴀɴᴅ ᴀsᴋ ᴛʜᴇʀᴇ ᴀʙᴏᴜᴛ ᴅᴏɴᴀᴛɪᴏɴ."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -392,7 +392,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="🚩sᴜᴩᴩᴏʀᴛ🚩", callback_data="mukesh_support"
+                            text="🚩sᴜᴩᴩᴏʀᴛ🚩", callback_data="sana_supports"
                         ),
                         InlineKeyboardButton(
                             text="✨ᴄᴏᴍᴍᴀɴᴅs✨", callback_data="help_back"
@@ -413,7 +413,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                 ]
             ),
         )
-    elif query.data == "mukesh_support":
+    elif query.data == "sana_supports":
         query.message.edit_text(
             text="||*๏ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ʜᴇʟᴩ ᴀɴᴅ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴍᴇ.||*"
             f"\n\nɪғ ʏᴏᴜ ғᴏᴜɴᴅ ᴀɴʏ ʙᴜɢ ɪɴ {dispatcher.bot.first_name} ᴏʀ ɪғ ʏᴏᴜ ᴡᴀɴɴᴀ ɢɪᴠᴇ ғᴇᴇᴅʙᴀᴄᴋ ᴀʙᴏᴜᴛ ᴛʜᴇ {dispatcher.bot.first_name}, ᴩʟᴇᴀsᴇ ʀᴇᴩᴏʀᴛ ɪᴛ ᴀᴛ sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ.",
@@ -892,7 +892,7 @@ def main():
 ㅤ **ᴩʏʀᴏɢʀᴀᴍ :** `{pyrover}`
 
 ─╼⃝𖠁-----------------𖠁⃝╾─•
-ᴍᴀᴅᴇ ᴡɪᴛʜ ❤  ʙʏ [𓆩𝙇𝙀𝙂𝙀𝙉𝘿 ♡ 𝘼𝙉𝘼𝙉𝘿𓆪]("t.me/pandit_Andy")""",
+ᴍᴀᴅᴇ ᴡɪᴛʜ ❤  ʙʏ [𓆩𓆩𝐑𝚶𝐘꯭𝚫𝐋₱Ɽł₦₵E𓆪]("t.me/pandit_Andy")""",
                 parse_mode=ParseMode.MARKDOWN,
             )
         except Unauthorized:
