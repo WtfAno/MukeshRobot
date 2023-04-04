@@ -17,14 +17,14 @@ class Config(object):
     API_ID = "" # integer value, dont use ""
     API_HASH = ""
     TOKEN = ""  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = "2145093972" # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "Mr_sukkun"
-    SUPPORT_CHAT = "the_support_chat"  # Your own group for support, do not add the @
+    OWNER_ID = "5288547197" # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "YOUR_GODFATHER_XD"
+    SUPPORT_CHAT = "INCRICIBLE"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -1001770762410
+        -1001940575506
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1001770762410
+        -1001940575506
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
     MONGO_DB_URI= ""
     # RECOMMENDED
@@ -39,13 +39,13 @@ class Config(object):
 
     # OPTIONAL
     ##List of id's -  (not usernames) for users which have sudo access to the bot.
-    DRAGONS = get_user_list("elevated_users.json", "2145093972")
+    DRAGONS = get_user_list("elevated_users.json", "5288547197")
     ##List of id's - (not usernames) for developers who will have the same perms as the owner
-    DEV_USERS = get_user_list("elevated_users.json", "2145093972")
+    DEV_USERS = get_user_list("elevated_users.json", "5288547197")
     ##List of id's (not usernames) for users which are allowed to gban, but can also be banned.
-    DEMONS = get_user_list("elevated_users.json", "2145093972")
+    DEMONS = get_user_list("elevated_users.json", "5288547197")
     # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
-    TIGERS = get_user_list("elevated_users.json", "2145093972")
+    TIGERS = get_user_list("elevated_users.json", "5288547197")
     WOLVES = get_user_list("elevated_users.json", "whitelists")
     DONATION_LINK = "https://t.me/itz_legend_coder" # EG, paypal
     CERT_PATH = None
