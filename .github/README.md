@@ -25,7 +25,7 @@ i<p align="center">
 ### ㅤㅤㅤㅤᴄʀᴇᴅɪᴛs 
  ᴍᴜᴋᴇsʜ [ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ](https://t.me/your_godfather_xd)
 
- [ᴀɴᴏɴʏᴍᴏᴜs](https://telegram.me/anonymous_was_bot)  
+ [ᴘʀɴᴄᴇ](https://telegram.me/YoUr_GoDfAtHeR_xD)  
 
 
 
