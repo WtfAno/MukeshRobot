@@ -404,7 +404,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                         ),
                         InlineKeyboardButton(
                             text="☄️sᴏᴜʀᴄᴇ☄️",
-                            url="https://t.me/+vlNevhodPaU2YmRl",
+                            url="https://t.me/aBoUtPrInCeXd",
                         ),
                     ],
                     [
@@ -830,9 +830,9 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 5910057231 and DONATION_LINK:
+        if OWNER_ID != 5288547197 and DONATION_LINK:
             update.effective_message.reply_text(
-                f"» ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴩᴇʀ ᴏғ {dispatcher.bot.first_name} sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ɪs [ɢɪᴛʜᴜʙ](https://github.com/noob-mukesh/MukeshRobot)"
+                f"» ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴩᴇʀ ᴏғ {dispatcher.bot.first_name} sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ɪs [ɢɪᴛʜᴜʙ](https://github.com/mrtosumemon/sanamanagementbot)"
                 f"\n\nʙᴜᴛ ʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ ᴅᴏɴᴀᴛᴇ ᴛᴏ ᴛʜᴇ ᴩᴇʀsᴏɴ ᴄᴜʀʀᴇɴᴛʟʏ ʀᴜɴɴɪɴɢ ᴍᴇ : [ʜᴇʀᴇ]({DONATION_LINK})",
                 parse_mode=ParseMode.MARKDOWN,
                 disable_web_page_preview=True,
@@ -892,7 +892,7 @@ def main():
 ㅤ **ᴩʏʀᴏɢʀᴀᴍ :** `{pyrover}`
 
 ─╼⃝𖠁-----------------𖠁⃝╾─•
-ᴍᴀᴅᴇ ᴡɪᴛʜ ❤  ʙʏ [𓆩𓆩𝐑𝚶𝐘꯭𝚫𝐋₱Ɽł₦₵E𓆪]("t.me/pandit_Andy")""",
+ᴍᴀᴅᴇ ᴡɪᴛʜ ❤  ʙʏ [𓆩𓆩𝐑𝚶𝐘꯭𝚫𝐋₱Ɽł₦₵E𓆪]("http://t.me/your_godfather_xd")""",
                 parse_mode=ParseMode.MARKDOWN,
             )
         except Unauthorized:
