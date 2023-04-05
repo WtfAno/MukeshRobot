@@ -23,7 +23,7 @@ i<p align="center">
  ━━━━━━━━━━━━━━━━━━━━━━
 
 ### ㅤㅤㅤㅤᴄʀᴇᴅɪᴛs 
- ᴍᴜᴋᴇsʜ [ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ](https://t.me/your_godfather_xd)
+ ᴘʀɪɴᴄᴇ [ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ](https://t.me/your_godfather_xd)
 
  [ᴘʀɴᴄᴇ](https://telegram.me/YoUr_GoDfAtHeR_xD)  
 
