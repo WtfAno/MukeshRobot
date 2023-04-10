@@ -52,7 +52,7 @@ async def restart(client, m: Message):
         lol,
         caption=f"""**ʜᴇʏ, ɪ ᴀᴍ 『[ɢʀᴏᴜᴘ ᴄᴏɴᴛʀᴏʟʟᴇʀ](f"t.me/{BOT_USERNAME}")』**
    ━━━━━━━━━━━━━━━━━━━
-  » **ᴍʏ ᴏᴡɴᴇʀ :** [𓆩𝙇𝙀𝙂𝙀𝙉𝘿 ♡ 𝘼𝙉𝘼𝙉𝘿𓆪](tg://user?id={OWNER_ID}))
+  » **ᴍʏ ᴏᴡɴᴇʀ :** [𓆩@YOUR_GODFATHER_XD𓆪](tg://user?id={OWNER_ID}))
   
   » **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{lver}`
   
@@ -62,7 +62,7 @@ async def restart(client, m: Message):
   
   » **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{pyver()}`
    ━━━━━━━━━━━━━━━━━━━""",
-        reply_markup=InlineKeyboardMarkup(Mukesh),
+        reply_markup=InlineKeyboardMarkup(Prince),
     )
 __mod_name__ = "⍟ ᴀʟɪᴠᴇ ⍟"
 __help__ = """
