@@ -16,9 +16,7 @@ i<p align="center">
   <img src="https://github.com/mrtosumemon/sanamanagementbot/blob/main/SANARobot/resources/Sana.jpg">
 </p>
 
-<p align="center">
-  <img src="https://graph.org/file/5d42ef12a7bb6437e0a1e.jpg">
-</p>
+<
 ## ㅤㅤ ɢʀᴏᴜᴘ ᴄᴏɴᴛʀᴏʟʟᴇʀ ʀᴏʙᴏᴛ
 ɪ ᴀᴍ ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [💞ɢʀᴏᴜᴘ ᴄᴏɴᴛʀᴏʟʟᴇʀ ʀᴏʙᴏᴛ​💞](http://t.me/INCRICIBLE_MUSIC_BOT)
 ᴛʜɪs ɪs ᴀ ᴅᴇᴍᴏ ʙᴏᴛ <br> ɪ ᴅᴏɴ'ᴛ ᴋɴᴏᴡ нσω ʟᴏɴɢᴇʀ ɪ'ʟʟ вε ʜᴏsᴛɪɴɢ ɪᴛ​...
