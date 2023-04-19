@@ -86,7 +86,7 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="🎈𝔸𝕕𝕕 𝕞𝕖 𝕚𝕟 𝕠𝕦𝕣 ℂ𝕙𝕒𝕥🎈",
+            text="❤️𝐀𝐝𝐝 𝐦𝐞 𝐭𝐨 𝐲𝐨𝐮𝐫 𝐜𝐡𝐚𝐭❤️",
             url=f"https://t.me/{dispatcher.bot.username}?startgroup=true",
         ),
     ],
@@ -94,12 +94,12 @@ buttons = [
         InlineKeyboardButton(text="⚡𝐒𝐔𝐏𝐄𝐑 𝐂𝐎𝐌𝐌𝐎𝐍𝐃𝐒⚡", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="⚜️𝐀𝐛𝐨𝐮𝐭⚜️", callback_data="mukesh_"),
-        InlineKeyboardButton(text="🔸𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩🔸", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="⚜️𝐀𝐁𝐎𝐔𝐓⚜️", callback_data="mukesh_"),
+        InlineKeyboardButton(text="🔸𝐂𝐇𝐀𝐓 𝐆𝐑𝐎𝐔𝐏🔸", url=f"https://t.me/{SUPPORT_CHAT}"),
     ],
     [
-        InlineKeyboardButton(text="𓆩𝐑𝚶𝐘꯭𝚫𝐋₱Ɽł₦₵E𓆪", url=f"tg://user?id={5288547197}"),
-        InlineKeyboardButton(text="🔹𝐌𝐮𝐬𝐢𝐜🔹", callback_data="Music_"),
+        InlineKeyboardButton(text="𓆩𝐆𝐎𝐃𝐅𝐀𝐓𝐇𝐄𝐑𓆪", url=f"tg://user?id={5288547197}"),
+        InlineKeyboardButton(text="🔹𝐌𝐔𝐒𝐈𝐂🔹", callback_data="Music_"),
     ],
 ]
 
@@ -109,7 +109,7 @@ HELP_STRINGS = f"""
 DONATE_STRING = """ʜᴇʏ ʙᴀʙʏ,
   ʜᴀᴩᴩʏ ᴛᴏ ʜᴇᴀʀ ᴛʜᴀᴛ ʏᴏᴜ ᴡᴀɴɴᴀ ᴅᴏɴᴀᴛᴇ.
 
-ʏᴏᴜ ᴄᴀɴ ᴅɪʀᴇᴄᴛʟʏ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ [𓆩𝐑𝚶𝐘꯭𝚫𝐋₱Ɽł₦₵E𓆪](f"tg://user?id={OWNER_ID}") ғᴏʀ ᴅᴏɴᴀᴛɪɴɢ ᴏʀ ʏᴏᴜ ᴄᴀɴ ᴠɪsɪᴛ ᴍʏ [🔸𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩🔸](f"https://t.me/{SUPPORT_CHAT}") ᴀɴᴅ ᴀsᴋ ᴛʜᴇʀᴇ ᴀʙᴏᴜᴛ ᴅᴏɴᴀᴛɪᴏɴ."""
+ʏᴏᴜ ᴄᴀɴ ᴅɪʀᴇᴄᴛʟʏ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ [𓆩𝐆𝐎𝐃𝐅𝐀𝐓𝐇𝐄𝐑𓆪](f"tg://user?id={OWNER_ID}") ғᴏʀ ᴅᴏɴᴀᴛɪɴɢ ᴏʀ ʏᴏᴜ ᴄᴀɴ ᴠɪsɪᴛ ᴍʏ [🔸𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩🔸](f"https://t.me/{SUPPORT_CHAT}") ᴀɴᴅ ᴀsᴋ ᴛʜᴇʀᴇ ᴀʙᴏᴜᴛ ᴅᴏɴᴀᴛɪᴏɴ."""
 
 IMPORTED = {}
 MIGRATEABLE = []
