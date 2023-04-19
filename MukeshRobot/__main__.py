@@ -86,7 +86,7 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="❤️𝐀𝐝𝐝 𝐦𝐞 𝐭𝐨 𝐲𝐨𝐮𝐫 𝐜𝐡𝐚𝐭❤️",
+            text="❤️𝐀𝐃𝐃 𝐌𝐄 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐂𝐇𝐀𝐓❤️",
             url=f"https://t.me/{dispatcher.bot.username}?startgroup=true",
         ),
     ],
