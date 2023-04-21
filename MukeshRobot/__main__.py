@@ -92,7 +92,7 @@ buttons = [
         InlineKeyboardButton(text="ᴄᴏᴍᴍᴀɴᴅꜱ⚡", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="🍁Cʜᴀᴛ ʜᴜB🍁", url=f"https://t.me/{SUPPORT_CHAT}"),
     ],
     [
         InlineKeyboardButton(text="𝐋ᴇɢᴇɴᴅ⚡", url=f"tg://user?id={6296990393}"),
@@ -388,10 +388,10 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="🚩sᴜᴩᴩᴏʀᴛ🚩", callback_data="sana_supports"
+                            text="Sᴜᴩᴩᴏʀᴛ⚡", callback_data="TeaEvon"
                         ),
                         InlineKeyboardButton(
-                            text="✨ᴄᴏᴍᴍᴀɴᴅs✨", callback_data="help_back"
+                            text="🍁ᴄᴏᴍᴍᴀɴᴅs", callback_data="help_back"
                         ),
                     ],
                     [
@@ -399,8 +399,8 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                             text="👨‍💻ᴅᴇᴠᴇʟᴏᴩᴇʀ👨‍💻", url=f"tg://user?id={OWNER_ID}"
                         ),
                         InlineKeyboardButton(
-                            text="☄️sᴏᴜʀᴄᴇ☄️",
-                            url="https://t.me/aBoUtPrInCeXd",
+                            text="Join🥀",
+                            url="https://t.me/YouKnowKartik",
                         ),
                     ],
                     [
@@ -427,7 +427,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                         ),
                     ],
                     [
-                        InlineKeyboardButton(text="◁", callback_data="mukesh_"),
+                        InlineKeyboardButton(text="◁", callback_data="Anoxdx"),
                     ],
                 ]
             ),
