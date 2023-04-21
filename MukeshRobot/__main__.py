@@ -76,30 +76,28 @@ PM_START_TEX = """
 
 
 PM_START_TEXT = """ 
-*ʜᴇʏ* {} , [🥀](https://graph.org/file/ec2d035e98db89dc257e5.jpg)
-*๏ ᴛʜɪs ɪs* {} !
-➻ 𝙵𝚄𝙻𝙻𝚈 𝙷𝙰𝚁𝙳 𝙼𝙰𝙽𝙰𝙶𝙴𝙼𝙴𝙽𝚃 𝙱𝙾𝚃 𝙵𝙾𝚁 𝙶𝚁𝙾𝚄𝙿 𝙲𝙰𝙽𝚃𝚁𝙾𝙻 📎 𝙵𝚄𝙻𝙻𝚈 𝚂𝙼𝙾𝙾𝚃𝙷 𝙼𝚄𝚂𝙸𝙲 𝙱𝙾𝚃 🖇️ 𝙸 𝙷𝙰𝚅𝙴 𝚂𝙾𝙼𝙴 𝚄𝚂𝙴𝙵𝚄𝙻𝙻 𝙵𝙴𝙰𝚃𝚄𝚁𝙴𝚂 .
-──────────────────
+°ʜᴇʏ° {} , [🥀](https://graph.org/file/ec2d035e98db89dc257e5.jpg)
+» ᴛʜɪs ɪs {} !
+Cᴀʀᴏʟɪɴᴀ ɪꜱ ᴛʜᴇ ꜱᴜᴘᴇʀ ʀᴏʙᴏᴛ ᴄᴀɴ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡɪᴛʜ ᴀᴡᴇꜱᴏᴍᴇ ᴀɴᴅ ʟᴇɢᴇɴᴅᴀʀʏ ꜰᴇᴀᴛᴜʀᴇꜱ...
+─────────────────
 *๏ ¢ℓι¢к ση нєℓρ вυттση тσ gєт ιηƒσямαтισηѕ αвσυт тнιѕ вσт ¢σммαη∂ѕ.*
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="❤️𝐀𝐃𝐃 𝐌𝐄 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐂𝐇𝐀𝐓❤️",
+            text="+ɢᴇᴛ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ+",
             url=f"https://t.me/{dispatcher.bot.username}?startgroup=true",
         ),
     ],
     [
-        InlineKeyboardButton(text="⚡𝐒𝐔𝐏𝐄𝐑 𝐂𝐎𝐌𝐌𝐎𝐍𝐃𝐒⚡", callback_data="help_back"),
+        InlineKeyboardButton(text="ᴄᴏᴍᴍᴀɴᴅꜱ⚡", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="⚜️𝐀𝐁𝐎𝐔𝐓⚜️", callback_data="mukesh_"),
         InlineKeyboardButton(text="🔸𝐂𝐇𝐀𝐓 𝐆𝐑𝐎𝐔𝐏🔸", url=f"https://t.me/{SUPPORT_CHAT}"),
     ],
     [
-        InlineKeyboardButton(text="𓆩𝐆𝐎𝐃𝐅𝐀𝐓𝐇𝐄𝐑𓆪", url=f"tg://user?id={5288547197}"),
-        InlineKeyboardButton(text="🔹𝐌𝐔𝐒𝐈𝐂🔹", callback_data="Music_"),
+        InlineKeyboardButton(text="𝐋ᴇɢᴇɴᴅ⚡", url=f"tg://user?id={6296990393}"),
     ],
 ]
 
@@ -109,7 +107,7 @@ HELP_STRINGS = f"""
 DONATE_STRING = """ʜᴇʏ ʙᴀʙʏ,
   ʜᴀᴩᴩʏ ᴛᴏ ʜᴇᴀʀ ᴛʜᴀᴛ ʏᴏᴜ ᴡᴀɴɴᴀ ᴅᴏɴᴀᴛᴇ.
 
-ʏᴏᴜ ᴄᴀɴ ᴅɪʀᴇᴄᴛʟʏ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ [𓆩𝐆𝐎𝐃𝐅𝐀𝐓𝐇𝐄𝐑𓆪](f"tg://user?id={OWNER_ID}") ғᴏʀ ᴅᴏɴᴀᴛɪɴɢ ᴏʀ ʏᴏᴜ ᴄᴀɴ ᴠɪsɪᴛ ᴍʏ [🔸𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩🔸](f"https://t.me/{SUPPORT_CHAT}") ᴀɴᴅ ᴀsᴋ ᴛʜᴇʀᴇ ᴀʙᴏᴜᴛ ᴅᴏɴᴀᴛɪᴏɴ."""
+ʏᴏᴜ ᴄᴀɴ ᴅɪʀᴇᴄᴛʟʏ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ [𝐋ᴇɢᴇɴᴅ⚡](f"tg://user?id={OWNER_ID}") ғᴏʀ ᴅᴏɴᴀᴛɪɴɢ ᴏʀ ʏᴏᴜ ᴄᴀɴ ᴠɪsɪᴛ ᴍʏ [🍁Cʜᴀᴛ ʜᴜB🍁](f"https://t.me/{SUPPORT_CHAT}") ᴀɴᴅ ᴀsᴋ ᴛʜᴇʀᴇ ᴀʙᴏᴜᴛ ᴅᴏɴᴀᴛɪᴏɴ."""
 
 IMPORTED = {}
 MIGRATEABLE = []
