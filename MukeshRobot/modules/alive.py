@@ -10,14 +10,14 @@ from telethon import __version__ as tver
 from MukeshRobot import SUPPORT_CHAT, pbot,BOT_USERNAME, OWNER_ID
 
 PHOTO = [
-    "https://telegra.ph/file/245e2812e8ff07391fd10.jpg",
-    "https://telegra.ph/file/1226413ee51834139b310.jpg",
-    "https://telegra.ph/file/83fa16123e7c5ae2df9e9.jpg",
-    "https://telegra.ph/file/97c64f62041be0dd0b654.jpg",
-    "https://telegra.ph/file/0417d3c1726da3c1f7c45.jpg",
+    "https://graph.org/file/597f41d0df963bfb7ed4a.mp4",
+    "https://graph.org/file/597f41d0df963bfb7ed4a.mp4",
+    "https://graph.org/file/597f41d0df963bfb7ed4a.mp4",
+    "https://graph.org/file/597f41d0df963bfb7ed4a.mp4",
+    "https://graph.org/file/597f41d0df963bfb7ed4a.mp4",
 ]
 
-Mukesh = [
+Kartik = [
     [
         InlineKeyboardButton(text="ɴᴏᴏʙ", url=f"tg://user?id={OWNER_ID}"),
         InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
@@ -30,7 +30,7 @@ Mukesh = [
     ],
 ]
 
-lol = "https://telegra.ph/file/ea140783bd9854833c461.jpg"
+lol = "https://graph.org/file/597f41d0df963bfb7ed4a.mp4"
 
 
 @pbot.on_message(filters.command("alive"))
@@ -38,9 +38,9 @@ async def restart(client, m: Message):
     await m.delete()
     accha = await m.reply("⚡")
     await asyncio.sleep(0.1)
-    await accha.edit("𝐖𝐚𝐢𝐭𝐢𝐧𝐠..")
+    await accha.edit("ᴀᴡᴀᴋɪɴɢ..")
     await asyncio.sleep(0.1)
-    await accha.edit("𝐖𝐚𝐢𝐭𝐢𝐧𝐠...")
+    await accha.edit("ᴀʟɪᴠɪɴɢ ʙᴀʙʏ ....")
     await accha.delete()
     await asyncio.sleep(0.1)
     umm = await m.reply_sticker(
@@ -50,23 +50,18 @@ async def restart(client, m: Message):
     await asyncio.sleep(2)
     await m.reply_photo(
         lol,
-        caption=f"""**ʜᴇʏ, ɪ ᴀᴍ 『[ɢʀᴏᴜᴘ ᴄᴏɴᴛʀᴏʟʟᴇʀ](f"t.me/{BOT_USERNAME}")』**
-   ━━━━━━━━━━━━━━━━━━━
-  » **ᴍʏ ᴏᴡɴᴇʀ :** [𓆩@YOUR_GODFATHER_XD𓆪](tg://user?id={OWNER_ID}))
-  
-  » **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{lver}`
-  
-  » **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{tver}`
-  
-  » **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{pver}`
-  
-  » **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{pyver()}`
-   ━━━━━━━━━━━━━━━━━━━""",
-        reply_markup=InlineKeyboardMarkup(Prince),
+        caption=f"""ʜᴇᴇʏᴀ, ɪ ᴀᴍ [𝐂ᴀʀᴏʟɪɴᴀ⚡](https://t.me/CarolinaRobot)
+ ▱▱▱▱▱▱▱▱▱▱▱▱
+➛  ᴍʏ ᴏᴡɴᴇʀ » [𝐊ᴀʀᴛɪᴋ](https://t.me/{AnoxDx})
+➛  ᴇᴠᴏɴɪᴛʏ  » [▹ᴄʟɪᴄᴋ](https://t.me/Evonity)
+➛  ꜱᴜᴘᴘᴏʀᴛ » [▹ᴄʟɪᴄᴋ](https://t.me/DelightSeekers)
+➛ ʙᴏᴛ ᴠᴇʀꜱɪᴏɴ » 2.0
+▱▱▱▱▱▱▱▱▱▱▱▱""",
+        reply_markup=InlineKeyboardMarkup(Kartik),
     )
-__mod_name__ = "⍟ ᴀʟɪᴠᴇ ⍟"
+__mod_name__ = "» ᴀʟɪᴠᴇ «"
 __help__ = """
- ©️ [ᴍᴜᴋᴇsʜ] (f"tg://user?id={OWNER_ID}"))
+ ©️ [𓆩 𝐊𝗔𝐑𝗧𝐈𝗞 𓆪 #𝙰ƒк 🍁] (f"tg://user?id={AnoxDx}"))
 
 *ᴜsᴇʀ ᴄᴏᴍᴍᴀɴᴅs*:
 » /alive*:* ᴛᴏ ᴄʜᴇᴀᴋ ❓  ɪ ᴀᴍ ᴀʟɪᴠᴇ ᴏʀ ɴᴏᴛ?"""
