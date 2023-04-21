@@ -9,14 +9,6 @@ from telethon import __version__ as tver
 
 from MukeshRobot import SUPPORT_CHAT, pbot,BOT_USERNAME, OWNER_ID
 
-PHOTO = [
-    "https://graph.org/file/597f41d0df963bfb7ed4a.mp4",
-    "https://graph.org/file/597f41d0df963bfb7ed4a.mp4",
-    "https://graph.org/file/597f41d0df963bfb7ed4a.mp4",
-    "https://graph.org/file/597f41d0df963bfb7ed4a.mp4",
-    "https://graph.org/file/597f41d0df963bfb7ed4a.mp4",
-]
-
 Kartik = [
     [
         InlineKeyboardButton(text="ɴᴏᴏʙ", url=f"tg://user?id={OWNER_ID}"),
