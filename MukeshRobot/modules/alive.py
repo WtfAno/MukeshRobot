@@ -22,7 +22,7 @@ Kartik = [
     ],
 ]
 
-lol = "https://graph.org/file/597f41d0df963bfb7ed4a.mp4"
+lol = "https://graph.org/file/86585b9f3b850353320d4.jpg"
 
 
 @pbot.on_message(filters.command("alive"))
