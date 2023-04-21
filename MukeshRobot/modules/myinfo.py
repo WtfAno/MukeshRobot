@@ -10,13 +10,13 @@ from MukeshRobot import telethn as tgbot
 from MukeshRobot.events import register
 
 edit_time = 5
-""" =======================𝐆𝐨𝐝𝐟𝐚𝐭𝐡𝐞𝐫 𝐑𝐨𝐛𝐨𝐭====================== """
-file1 = "https://te.legra.ph/file/5781554d064f2b739fff1.jpg"
-file2 = "https://te.legra.ph/file/42a4e79386bb46b107603.jpg"
-file3 = "https://te.legra.ph/file/248a0a4fbfa5456f972a5.jpg"
-file4 = "https://te.legra.ph/file/e4316071091a596f83c83.jpg"
-file5 = "https://te.legra.ph/file/6ff25446df11736e95995.jpg"
-""" =======================𝐆𝐨𝐝𝐟𝐚𝐭𝐡𝐞𝐫 𝐑𝐨𝐛𝐨𝐭====================== """
+""" ********************************************************* """
+file1 = "https://graph.org/file/96ab9896022157bb2652a.jpg"
+file2 = "https://graph.org/file/96ab9896022157bb2652a.jpg"
+file3 = "https://graph.org/file/96ab9896022157bb2652a.jpg"
+file4 = "https://graph.org/file/96ab9896022157bb2652a.jpg"
+file5 = "https://graph.org/file/96ab9896022157bb2652a.jpg"
+""" ********************************************************* """
 
 
 @register(pattern="/myinfo")
@@ -65,7 +65,7 @@ async def callback_query_handler(event):
     try:
         boy = event.sender_id
         PRO = await bot.get_entity(boy)
-        LILIE = "ᴘᴏᴡᴇʀᴇᴅ ʙʏ @GUJU_CHATTING\n\n"
+        LILIE = "ᴘᴏᴡᴇʀᴇᴅ ʙʏ @DELIGHTSEEKERS\n\n"
         LILIE += f"ғɪʀsᴛ ɴᴀᴍᴇ: {PRO.first_name} \n"
         LILIE += f"ʟᴀsᴛ ɴᴀᴍᴇ: {PRO.last_name}\n"
         LILIE += f"ʏᴏᴜ ʙᴏᴛ : {PRO.bot} \n"
@@ -78,6 +78,6 @@ async def callback_query_handler(event):
 
 
 __command_list__ = ["myinfo"]
-__mod_name__ = "⍟ ɪɴғᴏ ⍟"
+__mod_name__ = "*⍟ɪɴғᴏ*"
 __help__ = """
  /myinfo  ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ɪɴғᴏ """
