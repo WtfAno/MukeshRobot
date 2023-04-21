@@ -76,7 +76,7 @@ PM_START_TEX = """
 
 
 PM_START_TEXT = """ 
-°ʜᴇʏ° {} , [🥀](https://graph.org/file/ec2d035e98db89dc257e5.jpg)
+°ʜᴇʏ° {} , [🥀](https://graph.org/file/421940ed8bcf80b215559.jpg)
 » ᴛʜɪs ɪs {} !
 Cᴀʀᴏʟɪɴᴀ ɪꜱ ᴛʜᴇ ꜱᴜᴘᴇʀ ʀᴏʙᴏᴛ ᴄᴀɴ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡɪᴛʜ ᴀᴡᴇꜱᴏᴍᴇ ᴀɴᴅ ʟᴇɢᴇɴᴅᴀʀʏ ꜰᴇᴀᴛᴜʀᴇꜱ...
 ━━━━━━━━━━━━━━━━━━━━━━━"""
@@ -92,7 +92,7 @@ buttons = [
         InlineKeyboardButton(text="ᴄᴏᴍᴍᴀɴᴅꜱ⚡", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="🔸𝐂𝐇𝐀𝐓 𝐆𝐑𝐎𝐔𝐏🔸", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="", url=f"https://t.me/{SUPPORT_CHAT}"),
     ],
     [
         InlineKeyboardButton(text="𝐋ᴇɢᴇɴᴅ⚡", url=f"tg://user?id={6296990393}"),
@@ -100,7 +100,7 @@ buttons = [
 ]
 
 HELP_STRINGS = f"""
-» {BOT_NAME} [♥️](https://graph.org/file/7053b2ff49a93cb0854cb.jpg) ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴇsᴄʀɪᴘᴛɪᴏɴ ᴀʙᴏᴜᴛ sᴘᴇᴄɪғɪᴄs ᴄᴏᴍᴍᴀɴᴅ"""
+» {BOT_NAME} [♥️](https://graph.org/file/421940ed8bcf80b215559.jpg) ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴇsᴄʀɪᴘᴛɪᴏɴ ᴀʙᴏᴜᴛ sᴘᴇᴄɪғɪᴄs ᴄᴏᴍᴍᴀɴᴅ"""
 
 DONATE_STRING = """ʜᴇʏ ʙᴀʙʏ,
   ʜᴀᴩᴩʏ ᴛᴏ ʜᴇᴀʀ ᴛʜᴀᴛ ʏᴏᴜ ᴡᴀɴɴᴀ ᴅᴏɴᴀᴛᴇ.
