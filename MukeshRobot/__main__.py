@@ -877,7 +877,7 @@ def main():
         try:
             dispatcher.bot.sendAnimation(
                 f"@{SUPPORT_CHAT}",
-                animation="https://graph.org/file/45e922933eae0112f83f1.mp4",
+                animation="https://graph.org/file/597f41d0df963bfb7ed4a.mp4",
                 caption=f"""
 ✨ㅤ{dispatcher.bot.first_name} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ...
 
@@ -888,7 +888,7 @@ def main():
 ㅤ **ᴩʏʀᴏɢʀᴀᴍ :** `{pyrover}`
 
 ─╼⃝𖠁-----------------𖠁⃝╾─•
-ᴍᴀᴅᴇ ᴡɪᴛʜ ❤  ʙʏ[😈ǤØĐ乂𝙋𝙍𝙄𝙉𝘾𝙀😈]("http://t.me/your_godfather_xd")""",
+ᴍᴀᴅᴇ ᴡɪᴛʜ ❤  ʙʏ[LEGEND⚡]("http://t.me/ANOXDX")""",
                 parse_mode=ParseMode.MARKDOWN,
             )
         except Unauthorized:
