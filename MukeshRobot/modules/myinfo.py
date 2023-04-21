@@ -12,10 +12,6 @@ from MukeshRobot.events import register
 edit_time = 5
 """ ********************************************************* """
 file1 = "https://graph.org/file/96ab9896022157bb2652a.jpg"
-file2 = "https://graph.org/file/96ab9896022157bb2652a.jpg"
-file3 = "https://graph.org/file/96ab9896022157bb2652a.jpg"
-file4 = "https://graph.org/file/96ab9896022157bb2652a.jpg"
-file5 = "https://graph.org/file/96ab9896022157bb2652a.jpg"
 """ ********************************************************* """
 
 
@@ -27,37 +23,37 @@ async def proboyx(event):
     button = [[custom.Button.inline("information", data="informations")]]
     on = await bot.send_file(
         event.chat_id,
-        file=file2,
+        file=file1,
         caption=f"Hey {firstname}, \n Click on the button below \n to get info about you",
         buttons=button,
     )
 
     await asyncio.sleep(edit_time)
-    ok = await bot.edit_message(event.chat_id, on, file=file3, buttons=button)
+    ok = await bot.edit_message(event.chat_id, on, file=file1, buttons=button)
 
     await asyncio.sleep(edit_time)
-    ok2 = await bot.edit_message(event.chat_id, ok, file=file5, buttons=button)
+    ok2 = await bot.edit_message(event.chat_id, ok, file=file1, buttons=button)
 
     await asyncio.sleep(edit_time)
     ok3 = await bot.edit_message(event.chat_id, ok2, file=file1, buttons=button)
 
     await asyncio.sleep(edit_time)
-    ok7 = await bot.edit_message(event.chat_id, ok6, file=file4, buttons=button)
+    ok7 = await bot.edit_message(event.chat_id, ok6, file=file1, buttons=button)
 
     await asyncio.sleep(edit_time)
-    ok4 = await bot.edit_message(event.chat_id, ok3, file=file2, buttons=button)
+    ok4 = await bot.edit_message(event.chat_id, ok3, file=file1, buttons=button)
 
     await asyncio.sleep(edit_time)
     ok5 = await bot.edit_message(event.chat_id, ok4, file=file1, buttons=button)
 
     await asyncio.sleep(edit_time)
-    ok6 = await bot.edit_message(event.chat_id, ok5, file=file3, buttons=button)
+    ok6 = await bot.edit_message(event.chat_id, ok5, file=file1, buttons=button)
 
     await asyncio.sleep(edit_time)
-    ok7 = await bot.edit_message(event.chat_id, ok6, file=file5, buttons=button)
+    ok7 = await bot.edit_message(event.chat_id, ok6, file=file1, buttons=button)
 
     await asyncio.sleep(edit_time)
-    ok7 = await bot.edit_message(event.chat_id, ok6, file=file4, buttons=button)
+    ok7 = await bot.edit_message(event.chat_id, ok6, file=file1, buttons=button)
 
 
 @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"information")))
