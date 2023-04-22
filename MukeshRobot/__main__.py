@@ -212,14 +212,13 @@ def start(update: Update, context: CallbackContext):
             first_name = update.effective_user.first_name
             
             x=update.effective_message.reply_sticker(
-                "CAACAgEAAx0Cc6rVEgACOPhkP34SHER0TCRLYRWQU971aPgAAUwAAhcGAALQrPlFKB4mvfA-0e4vBA")
-            x.delete()
+                "CAACAgQAAxkBAAEIrdpkQ7H6Vbn86fUmcsTXnSQxtQKbbAACQQwAAli4SVN7M7KmxMKX3y8E")
             usr = update.effective_user
             lol = update.effective_message.reply_text(
                 PM_START_TEX.format(usr.first_name), parse_mode=ParseMode.MARKDOWN
             )
             time.sleep(0.1)
-            lol.edit_text("𝙶𝙾𝙳𝙵𝙰𝚃𝙷𝙴𝚁↝ ꜱᴛᴀʀᴛɪɴɢ... ")
+            lol.edit_text(" ʟᴇɢᴇɴᴅᴀʀʏ ᴘʀᴏᴄᴇꜱꜱɪɴɢ... ")
             time.sleep(0.1)
             lol.delete()
             
@@ -888,7 +887,7 @@ def main():
 ㅤ **ᴩʏʀᴏɢʀᴀᴍ :** `{pyrover}`
 
 ─╼⃝𖠁-----------------𖠁⃝╾─•
-ᴍᴀᴅᴇ ᴡɪᴛʜ ❤  ʙʏ[LEGEND⚡]("http://t.me/ANOXDX")""",
+ᴍᴀᴅᴇ ᴡɪᴛʜ ❤ [LEGEND⚡]("http://t.me/ANOXDX") """,
                 parse_mode=ParseMode.MARKDOWN,
             )
         except Unauthorized:
