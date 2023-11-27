@@ -52,7 +52,7 @@ async def restart(client, m: Message):
   ▱▱▱▱▱▱▱▱▱▱▱▱""",
         reply_markup=InlineKeyboardMarkup(Kartik),
     )
-__mod_name__ = "» ᴀʟɪᴠᴇ «"
+__mod_name__ = " Aʟɪᴠᴇ "
 __help__ = """
  ©️ [𓆩 𝐊𝗔𝐑𝗧𝐈𝗞 𓆪 #𝙰ƒк 🍁] (f"tg://user?id={AnoxDx}"))
 
