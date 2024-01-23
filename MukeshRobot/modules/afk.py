@@ -143,7 +143,7 @@ def check_afk(update, context, user_id, fst_name, userc_id):
 
 
 __help__ = """
-©️ [ᴍᴜᴋᴇsʜ] (f"tg://user?id={OWNER_ID}"))
+©️ [kartik] (f"tg://user?id={OWNER_ID}"))
 
 *ᴀᴡᴀʏ ғʀᴏᴍ ɢʀᴏᴜᴘ*
  ❍ /afk <reason>*:* ᴍᴀʀᴋ ʏᴏᴜʀsᴇʟғ ᴀs ᴀғᴋ(ᴀᴡᴀʏ ғʀᴏᴍ ᴋᴇʏʙᴏᴀʀᴅ).
@@ -165,7 +165,7 @@ dispatcher.add_handler(AFK_REGEX_HANDLER, AFK_GROUP)
 dispatcher.add_handler(NO_AFK_HANDLER, AFK_GROUP)
 dispatcher.add_handler(AFK_REPLY_HANDLER, AFK_REPLY_GROUP)
 
-__mod_name__ = " Aꜰᴋ "
+__mod_name__ = "Aꜰᴋ"
 __command_list__ = ["afk"]
 __handlers__ = [
     (AFK_HANDLER, AFK_GROUP),
