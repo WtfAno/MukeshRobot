@@ -11,7 +11,7 @@ from MukeshRobot import SUPPORT_CHAT, pbot,BOT_USERNAME, OWNER_ID
 
 Kartik = [
     [
-        InlineKeyboardButton(text="ɴᴏᴏʙ", url=f"tg://user?id={OWNER_ID}"),
+        InlineKeyboardButton(text="ʟᴇɢᴇɴᴅ", url=f"tg://user?id={OWNER_ID}"),
         InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
     ],
     [
