@@ -182,9 +182,9 @@ async def get_users(show):
     os.remove("userslist.txt")
 
 
-__mod_name__ = "⍟ ᴀᴅᴠᴀɴᴄᴇ ⍟"
+__mod_name__ = "ᴀᴅᴠᴀɴᴄᴇ"
 __help__ = """ 
- ©️ ʙʏ ᯾ [𓆩𝐑𝚶𝐘꯭𝚫𝐋 ₱Ɽł₦₵Ɇ𓆪](t.me/your_godfather_xd)
+ ©️ ʙʏ ᯾ [Kartik](t.me/WtfAno)
 
 ➥ /unbanall : ᴜɴʙᴀɴ ᴀʟʟ ᴍᴀᴍʙᴇʀ 
 
