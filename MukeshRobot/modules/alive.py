@@ -42,17 +42,17 @@ async def restart(client, m: Message):
     await asyncio.sleep(2)
     await m.reply_photo(
         lol,
-        caption=f"""ʜᴇᴇʏᴀ, ɪ ᴀᴍ [𝐂ᴀʀᴏʟɪɴᴀ⚡](https://t.me/CarolinaRobot)
+        caption=f"""ʜᴇᴇʏᴀ, ɪ ᴀᴍ [Wᴀɢᴏɴ⚡](https://t.me/WagonRobot)
 
        ▱▱▱▱▱▱▱▱▱▱▱▱
-➛  ᴍʏ ᴏᴡɴᴇʀ » [𝐊ᴀʀᴛɪᴋ](https://t.me/{AnoxDx})
+➛  ᴍʏ ᴏᴡɴᴇʀ » [𝐊ᴀʀᴛɪᴋ](https://t.me/{WtfAno})
 ➛  ᴇᴠᴏɴɪᴛʏ  » [▹ᴄʟɪᴄᴋ](https://t.me/Evonity)
-➛  ꜱᴜᴘᴘᴏʀᴛ » [▹ᴄʟɪᴄᴋ](https://t.me/DelightSeekers)
+➛  ꜱᴜᴘᴘᴏʀᴛ » [▹ᴄʟɪᴄᴋ](https://t.me/EvonixZone)
 ➛ ʙᴏᴛ ᴠᴇʀꜱɪᴏɴ » 2.0
   ▱▱▱▱▱▱▱▱▱▱▱▱""",
         reply_markup=InlineKeyboardMarkup(Kartik),
     )
-__mod_name__ = " Aʟɪᴠᴇ "
+__mod_name__ = "Aʟɪᴠᴇ"
 __help__ = """
  ©️ [𓆩 𝐊𝗔𝐑𝗧𝐈𝗞 𓆪 #𝙰ƒк 🍁] (f"tg://user?id={AnoxDx}"))
 
