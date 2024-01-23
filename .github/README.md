@@ -2,9 +2,6 @@ i<p align="center">
     <a href="https://github.com/Noob-Mukesh/MukeshRobot/stargazers"><img src="https://img.shields.io/github/stars/Noob-Mukesh/MukeshRobot?label=Stars&style=flat-square&logo=github&color=F10070" alt="Stars" /></a>
 </p>
 <p align="center">
-  <img src="https://graph.org/file/2bb674484e9afab02576e.jpg">
-</p>
-<p align="center">
     <a href="https://github.com/Noob-Mukesh/MukeshRobot"> <img src="https://img.shields.io/github/repo-size/Noob-Mukesh/MukeshRobot?color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
     <a href="https://github.com/Noob-Mukesh/MukeshRobot/commits/prince"> <img src="https://img.shields.io/github/last-commit/Noob-Mukesh/MukeshRobot?color=blue&logo=github&logoColor=green&style=for-the-badge" /></a>
     <a href="https://github.com/Noob-Mukesh/MukeshRobot/issues"> <img src="https://img.shields.io/github/issues//MukeshRobot?color=blueviolet&logo=github&logoColor=green&style=for-the-badge" /></a>
