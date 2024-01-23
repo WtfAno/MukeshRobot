@@ -89,21 +89,21 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="ᴄᴏᴍᴍᴀɴᴅꜱ⚡", callback_data="help_back"),
+        InlineKeyboardButton(text="ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="🍁Cʜᴀᴛ ʜᴜB🍁", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="Cʜᴀᴛ-ʜᴜB", url=f"https://t.me/EvonixZone"),
     ],
     [
-        InlineKeyboardButton(text="𝐋ᴇɢᴇɴᴅ⚡", url=f"tg://user?id={6296990393}"),
+        InlineKeyboardButton(text="𝐋ᴇɢᴇɴᴅ", url=f"tg://user?id={6573779839}"),
     ],
 ]
 
 HELP_STRINGS = f"""
-» {BOT_NAME} [♥️](https://graph.org/file/421940ed8bcf80b215559.jpg) ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴇsᴄʀɪᴘᴛɪᴏɴ ᴀʙᴏᴜᴛ sᴘᴇᴄɪғɪᴄs ᴄᴏᴍᴍᴀɴᴅ"""
+» {BOT_NAME} [♥️](https://graph.org/file/50b9a639f630829c219c0.jpg) ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴇsᴄʀɪᴘᴛɪᴏɴ ᴀʙᴏᴜᴛ sᴘᴇᴄɪғɪᴄs ᴄᴏᴍᴍᴀɴᴅ"""
 
 DONATE_STRING = """ʜᴇʏ ʙᴀʙʏ,
-  ʜᴀᴩᴩʏ ᴛᴏ ʜᴇᴀʀ ᴛʜᴀᴛ ʏᴏᴜ ᴡᴀɴɴᴀ ᴅᴏɴᴀᴛᴇ.
+ʜᴀᴩᴩʏ ᴛᴏ ʜᴇᴀʀ ᴛʜᴀᴛ ʏᴏᴜ ᴡᴀɴɴᴀ ᴅᴏɴᴀᴛᴇ.
 
 ʏᴏᴜ ᴄᴀɴ ᴅɪʀᴇᴄᴛʟʏ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ [𝐋ᴇɢᴇɴᴅ⚡](f"tg://user?id={OWNER_ID}") ғᴏʀ ᴅᴏɴᴀᴛɪɴɢ ᴏʀ ʏᴏᴜ ᴄᴀɴ ᴠɪsɪᴛ ᴍʏ [🍁Cʜᴀᴛ ʜᴜB🍁](f"https://t.me/{SUPPORT_CHAT}") ᴀɴᴅ ᴀsᴋ ᴛʜᴇʀᴇ ᴀʙᴏᴜᴛ ᴅᴏɴᴀᴛɪᴏɴ."""
 
@@ -387,7 +387,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Sᴜᴩᴩᴏʀᴛ⚡", callback_data="TeaEvon"
+                            text="Sᴜᴩᴩᴏʀᴛ⚡", callback_data="EvonixZone"
                         ),
                         InlineKeyboardButton(
                             text="🍁ᴄᴏᴍᴍᴀɴᴅs", callback_data="help_back"
@@ -399,7 +399,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                         ),
                         InlineKeyboardButton(
                             text="Join🥀",
-                            url="https://t.me/YouKnowKartik",
+                            url="https://t.me/AnoSays",
                         ),
                     ],
                     [
