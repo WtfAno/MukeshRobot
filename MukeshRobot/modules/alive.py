@@ -39,7 +39,7 @@ async def restart(client, m: Message):
         "CAADBQADcgkAAoCLSFV4lcD251tTkwI"
     )
     await umm.delete()
-    await asyncio.sleep(2)
+    await asyncio.sleep(0.2)
     await m.reply_photo(
         lol,
         caption=f"""ʜᴇᴇʏᴀ, ɪ ᴀᴍ [Wᴀɢᴏɴ⚡](https://t.me/WagonRobot)
