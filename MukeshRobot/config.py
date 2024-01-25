@@ -18,7 +18,7 @@ class Config(object):
     API_HASH = ""
     TOKEN = ""  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     OWNER_ID = "5288547197" # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "YOUR_GODFATHER_XD"
+    OWNER_USERNAME = "ANOXDX"
     SUPPORT_CHAT = "INCRICIBLE"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
         -1001940575506
