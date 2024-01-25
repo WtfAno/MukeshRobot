@@ -76,9 +76,11 @@ PM_START_TEX = """
 
 
 PM_START_TEXT = """ 
-°ʜᴇʏ° {} , [🥀](https://graph.org/file/50b9a639f630829c219c0.jpg)
+ʜᴇʏ {} , [🥀](https://graph.org/file/a214d8fe81603808967c2.jpg)
 » ᴛʜɪs ɪs {} !
 ᴡᴀɢᴏɴ ɪꜱ ᴛʜᴇ ꜱᴜᴘᴇʀ ʀᴏʙᴏᴛ ᴄᴀɴ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡɪᴛʜ ᴀᴡᴇꜱᴏᴍᴇ ᴀɴᴅ ʟᴇɢᴇɴᴅᴀʀʏ ꜰᴇᴀᴛᴜʀᴇꜱ...
+ᴘᴏᴡᴇʀᴇᴅ ʙʏ @QepoX
+ᴏᴡɴᴇᴅ ʙʏ @Rearo
 ━━━━━━━━━━━━━━━━━━━━━━━"""
 
 buttons = [
@@ -90,9 +92,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="help_back"),
-    ],
-    [
-        InlineKeyboardButton(text="Cʜᴀᴛ-ʜᴜB", url=f"https://t.me/EvonixZone"),
+        InlineKeyboardButton(text="Cʜᴀᴛ-ʜᴜB", url=f"https://t.me/")
     ],
     [
         InlineKeyboardButton(text="𝐋ᴇɢᴇɴᴅ", url=f"tg://user?id={6573779839}"),
@@ -100,7 +100,7 @@ buttons = [
 ]
 
 HELP_STRINGS = f"""
-» {BOT_NAME} [♥️](https://graph.org/file/50b9a639f630829c219c0.jpg) ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴇsᴄʀɪᴘᴛɪᴏɴ ᴀʙᴏᴜᴛ sᴘᴇᴄɪғɪᴄs ᴄᴏᴍᴍᴀɴᴅ"""
+» {BOT_NAME} [♥️](https://graph.org/file/a214d8fe81603808967c2.jpg) ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴇsᴄʀɪᴘᴛɪᴏɴ ᴀʙᴏᴜᴛ sᴘᴇᴄɪғɪᴄs ᴄᴏᴍᴍᴀɴᴅ"""
 
 DONATE_STRING = """ʜᴇʏ ʙᴀʙʏ,
 ʜᴀᴩᴩʏ ᴛᴏ ʜᴇᴀʀ ᴛʜᴀᴛ ʏᴏᴜ ᴡᴀɴɴᴀ ᴅᴏɴᴀᴛᴇ.
